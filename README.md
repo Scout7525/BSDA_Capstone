@@ -9,25 +9,41 @@ This capstone project analyzes trends in income inequality across U.S. states us
 
 **Has income inequality, as measured by the Gini Index, increased significantly across U.S. states since 2006?**
 
----
-
 ## 📁 Project Structure
 
-├── data_pull.py # Script to pull Gini Index data via Census API
-├── data_cleaning.py # Cleans and prepares raw ACS data
-├── eda_analysis.py # Generates plots and summary statistics
-├── statistical_test.py # Performs paired t-test, Wilcoxon, effect size
-├── data/
-│ ├── raw/ # Original pulled data (CSV)
-│ └── cleaned/ # Processed data for analysis
-├── figures/
-│ ├── gini_change_test_summary.png
-│ ├── correlation_heatmap.png
-│ ├── regional_gini_trends.png
-│ └── ...
-├── results/
-│ └── hypothesis_test_summary.txt # Output test results and stats
-├── README.md # Project documentation (this file)
+Project root contains the following files and directories:
+
+- `data_pull.py`  
+  Pulls Gini Index and Median Household Income data from the U.S. Census API.
+
+- `data_cleaning.py`  
+  Processes raw data: cleans missing values, formats columns, adds regional labels.
+
+- `eda_analysis.py`  
+  Performs exploratory data analysis and generates visualizations.
+
+- `statistical_test.py`  
+  Conducts paired t-tests or Wilcoxon signed-rank tests; calculates Cohen's d.
+
+- `data/`  
+  - `raw/` — Unprocessed CSVs from Census API.  
+  - `cleaned/` — Final cleaned dataset for analysis.
+
+- `figures/`  
+  Stores generated `.png` files, including:
+  - `gini_histogram.png`  
+  - `national_gini_trend.png`  
+  - `regional_gini_trends.png`  
+  - `gini_change_test_summary.png`  
+  - `correlation_heatmap.png`  
+  - `gini_vs_income_scatter.png`
+
+- `results/`  
+  Contains test result summaries, including p-values and test statistics.
+ 
+- `README.md`  
+  This documentation file.
+
 ---
 
 ## 🛠️ Tools & Libraries
