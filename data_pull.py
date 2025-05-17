@@ -4,7 +4,7 @@ import pandas as pd
 from time import sleep
 
 # ---------------------- CONFIGURATION -----------------------
-CENSUS_API_KEY = "caa8b48ff6f8c9182650f3b765073d0facf90bbb"  # <- Replace with your actual API key
+CENSUS_API_KEY = "caa8b48ff6f8c9182650f3b765073d0facf90bbb"  
 BASE_URL = "https://api.census.gov/data/{year}/acs/acs1"
 YEARS = list(range(2005, 2024))  # 2005 through 2023
 
@@ -17,7 +17,7 @@ VARIABLES = {
 OUTPUT_DIR = "./data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Mapping of FIPS codes to beautifully readable state names
+# Mapping of FIPS codes to readable state names
 STATE_FIPS_TO_NAME = {
     "01": "Alabama", "02": "Alaska", "04": "Arizona", "05": "Arkansas", "06": "California",
     "08": "Colorado", "09": "Connecticut", "10": "Delaware", "11": "District of Columbia",
@@ -70,7 +70,7 @@ def main():
         try:
             df = pull_acs_data(year)
             all_years_data.append(df)
-            sleep(1)  # courteously wait to avoid hammering the API
+            sleep(1)  
         except Exception as e:
             print(f"⚠️ Error encountered for year {year}: {e}")
 
