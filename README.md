@@ -13,7 +13,21 @@ This capstone project analyzes trends in income inequality across U.S. states us
 
 ## 📁 Project Structure
 
-
+├── data_pull.py # Script to pull Gini Index data via Census API
+├── data_cleaning.py # Cleans and prepares raw ACS data
+├── eda_analysis.py # Generates plots and summary statistics
+├── statistical_test.py # Performs paired t-test, Wilcoxon, effect size
+├── data/
+│ ├── raw/ # Original pulled data (CSV)
+│ └── cleaned/ # Processed data for analysis
+├── figures/
+│ ├── gini_change_test_summary.png
+│ ├── correlation_heatmap.png
+│ ├── regional_gini_trends.png
+│ └── ...
+├── results/
+│ └── hypothesis_test_summary.txt # Output test results and stats
+├── README.md # Project documentation (this file)
 ---
 
 ## 🛠️ Tools & Libraries
@@ -86,7 +100,7 @@ Data is sourced from the **U.S. Census Bureau's American Community Survey (ACS) 
 
 ## 📬 Contact
 
-**Author**: [Your Name]  
-**Email**: [your.email@example.com]  
-**GitHub**: [github.com/yourusername]
+**Author**: Mark MacPherson]  
+**Email**: mmacph6@wgo.edu]  
+**GitHub**: github.com/Scout7525
 
