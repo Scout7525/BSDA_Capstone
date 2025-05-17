@@ -97,12 +97,34 @@ Data is sourced from the **U.S. Census Bureau's American Community Survey (ACS) 
 
 ---
 
-## 📑 References
+## 📚 References
 
-- Scharrer, C. (2025). *Evolving Contributions of Various Income Sources to U.S. Income Inequality*.
-- Kuhn, M., Schularick, M., & Steins, U. (2017). *Income and Wealth Inequality in America, 1949–2013*.
-- Rau, E. G., & Stokes, S. (2025). *Income Inequality and the Erosion of Democracy*.
-- U.S. Census Bureau (n.d.). *American Community Survey API*.
+Bruce, P., Bruce, A., & Gedeck, P. (2020). *Practical Statistics for Data Scientists, 50+ Essential Concepts Using R and Python* (2nd ed.). O'Reilly Media Inc.
+
+Bureau, U. S. C. (2023, February 1, 2024). *Data Access and Use*. U.S. Census Bureau. Retrieved May 2, 2025, from https://www.census.gov/data/developers/about/terms-of-service.html
+
+Cai, R., & Tan, S.-Y. (2025). Exploring the relationship between income inequality and crime in Toronto using frequentist and Bayesian models: Examining different crime types and spatial scales. *Environment and Planning B*, 0(0), 23998083241311969. https://doi.org/10.1177/23998083241311969
+
+Grus, J. (2015). *Data Science from Scratch: First Principles with Python*. O'Reilly Media Inc.
+
+Jackson, S. L. (2016). *Research Methods and Statistics: A Critical Thinking Approach*. Cengage Learning. https://books.google.com/books?id=M5CFCwAAQBAJ
+
+Kuhn, M., Schularick, M., & Steins, U. I. (2017). Income and wealth inequality in America. *Journal of Political Economy*, 4.
+
+McKinney, W. (2022). *Python for Data Analysis: Data Wrangling with Pandas, NumPy & Jupyter*. O'Reilly Media Inc.
+
+Molin, S. (2021). *Hands-On Data Analysis with Pandas*. Packt.
+
+Rau, E. G., & Stokes, S. (2025). Income inequality and the erosion of democracy in the twenty-first century. *Proceedings of the National Academy of Sciences*, 122(1), e2422543121. https://doi.org/10.1073/pnas.2422543121
+
+Scharrer, C. (2025). Evolving contributions of various income sources to US income inequality across age groups. *Journal of Population Ageing*. https://doi.org/10.1007/s12062-025-09481-0
+
+Schröer, C., Kruse, F., & Gómez, J. M. (2021). A systematic literature review on applying CRISP-DM process model. *Procedia Computer Science*, 181, 526–534. https://doi.org/10.1016/j.procs.2021.01.199
+
+Stotesbury, N., & Dorling, D. (2015). Understanding income inequality and its implications: Why better statistics are needed. *Statistics Views*, 21.
+
+Tcherneva, P. (2015). Trends in US income inequality. *Real-World Economics Review*, 71, 64–74.
+
 
 ---
 
