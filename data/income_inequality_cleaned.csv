@@ -1,4 +1,106 @@
 Gini_Index,Median_Household_Income,Year,State,Region
+0.472,38783,2006,Alabama,South
+0.417,59393,2006,Alaska,West
+0.454,47265,2006,Arizona,West
+0.46,36599,2006,Arkansas,South
+0.466,56645,2006,California,West
+0.45,52015,2006,Colorado,West
+0.48,63422,2006,Connecticut,Northeast
+0.434,52833,2006,Delaware,South
+0.537,51847,2006,District of Columbia,South
+0.467,45495,2006,Florida,South
+0.461,46832,2006,Georgia,South
+0.438,61160,2006,Hawaii,West
+0.421,42865,2006,Idaho,West
+0.462,52006,2006,Illinois,Midwest
+0.432,45394,2006,Indiana,Midwest
+0.424,44491,2006,Iowa,Midwest
+0.441,45478,2006,Kansas,Midwest
+0.46,39372,2006,Kentucky,South
+0.475,39337,2006,Louisiana,South
+0.428,43439,2006,Maine,Northeast
+0.433,65144,2006,Maryland,South
+0.461,59963,2006,Massachusetts,Northeast
+0.444,47182,2006,Michigan,Midwest
+0.43,54023,2006,Minnesota,Midwest
+0.471,34473,2006,Mississippi,South
+0.449,42841,2006,Missouri,Midwest
+0.426,40627,2006,Montana,West
+0.43,45474,2006,Nebraska,Midwest
+0.434,52998,2006,Nevada,West
+0.417,59683,2006,New Hampshire,Northeast
+0.458,64470,2006,New Jersey,Northeast
+0.457,40629,2006,New Mexico,West
+0.495,51384,2006,New York,Northeast
+0.458,42625,2006,North Carolina,South
+0.434,41919,2006,North Dakota,Midwest
+0.449,44532,2006,Ohio,Midwest
+0.46,38770,2006,Oklahoma,South
+0.444,46230,2006,Oregon,West
+0.455,46259,2006,Pennsylvania,Northeast
+0.442,51814,2006,Rhode Island,Northeast
+0.462,41100,2006,South Carolina,South
+0.439,42791,2006,South Dakota,Midwest
+0.468,40315,2006,Tennessee,South
+0.474,44922,2006,Texas,South
+0.41,51309,2006,Utah,West
+0.42,47665,2006,Vermont,Northeast
+0.456,56277,2006,Virginia,South
+0.443,52583,2006,Washington,West
+0.447,35059,2006,West Virginia,South
+0.424,48772,2006,Wisconsin,Midwest
+0.413,47423,2006,Wyoming,West
+0.471,40554,2007,Alabama,South
+0.409,64333,2007,Alaska,West
+0.448,49889,2007,Arizona,West
+0.462,38134,2007,Arkansas,South
+0.469,59948,2007,California,West
+0.452,55212,2007,Colorado,West
+0.481,65967,2007,Connecticut,Northeast
+0.435,54610,2007,Delaware,South
+0.542,54317,2007,District of Columbia,South
+0.469,47804,2007,Florida,South
+0.464,49136,2007,Georgia,South
+0.422,63746,2007,Hawaii,West
+0.436,46253,2007,Idaho,West
+0.466,54124,2007,Illinois,Midwest
+0.429,47448,2007,Indiana,Midwest
+0.426,47292,2007,Iowa,Midwest
+0.444,47451,2007,Kansas,Midwest
+0.465,40267,2007,Kentucky,South
+0.478,40926,2007,Louisiana,South
+0.44,45888,2007,Maine,Northeast
+0.442,68080,2007,Maryland,South
+0.467,62365,2007,Massachusetts,Northeast
+0.448,47950,2007,Michigan,Midwest
+0.436,55802,2007,Minnesota,Midwest
+0.48,36338,2007,Mississippi,South
+0.45,45114,2007,Missouri,Midwest
+0.443,43531,2007,Montana,West
+0.429,47085,2007,Nebraska,Midwest
+0.437,55062,2007,Nevada,West
+0.417,62369,2007,New Hampshire,Northeast
+0.464,67035,2007,New Jersey,Northeast
+0.459,41452,2007,New Mexico,West
+0.5,53514,2007,New York,Northeast
+0.465,44670,2007,North Carolina,South
+0.44,43753,2007,North Dakota,Midwest
+0.448,46597,2007,Ohio,Midwest
+0.463,41567,2007,Oklahoma,South
+0.442,48730,2007,Oregon,West
+0.46,48576,2007,Pennsylvania,Northeast
+0.457,53568,2007,Rhode Island,Northeast
+0.459,43329,2007,South Carolina,South
+0.423,43424,2007,South Dakota,Midwest
+0.471,42367,2007,Tennessee,South
+0.473,47548,2007,Texas,South
+0.409,55109,2007,Utah,West
+0.428,49907,2007,Vermont,Northeast
+0.456,59562,2007,Virginia,South
+0.444,55591,2007,Washington,West
+0.454,37060,2007,West Virginia,South
+0.428,50578,2007,Wisconsin,Midwest
+0.437,51731,2007,Wyoming,West
 0.467,42666,2008,Alabama,South
 0.403,68460,2008,Alaska,West
 0.453,50958,2008,Arizona,West
@@ -50,6 +152,57 @@ Gini_Index,Median_Household_Income,Year,State,Region
 0.453,37989,2008,West Virginia,South
 0.426,52094,2008,Wisconsin,Midwest
 0.441,53207,2008,Wyoming,West
+0.471,40489,2009,Alabama,South
+0.402,66953,2009,Alaska,West
+0.451,48745,2009,Arizona,West
+0.461,37823,2009,Arkansas,South
+0.467,58931,2009,California,West
+0.453,55430,2009,Colorado,West
+0.48,67034,2009,Connecticut,Northeast
+0.434,56860,2009,Delaware,South
+0.532,59290,2009,District of Columbia,South
+0.469,44736,2009,Florida,South
+0.469,47590,2009,Georgia,South
+0.425,64098,2009,Hawaii,West
+0.421,44926,2009,Idaho,West
+0.444,47817,2009,Kansas,Midwest
+0.469,53966,2009,Illinois,Midwest
+0.434,45424,2009,Indiana,Midwest
+0.431,48044,2009,Iowa,Midwest
+0.464,40072,2009,Kentucky,South
+0.473,42492,2009,Louisiana,South
+0.432,45734,2009,Maine,Northeast
+0.448,69272,2009,Maryland,South
+0.468,64081,2009,Massachusetts,Northeast
+0.453,45255,2009,Michigan,Midwest
+0.439,55616,2009,Minnesota,Midwest
+0.47,36646,2009,Mississippi,South
+0.45,45229,2009,Missouri,Midwest
+0.431,42322,2009,Montana,West
+0.44,47357,2009,Nebraska,Midwest
+0.433,53341,2009,Nevada,West
+0.431,60567,2009,New Hampshire,Northeast
+0.465,68342,2009,New Jersey,Northeast
+0.453,43028,2009,New Mexico,West
+0.502,54659,2009,New York,Northeast
+0.464,43674,2009,North Carolina,South
+0.45,47827,2009,North Dakota,Midwest
+0.453,45395,2009,Ohio,Midwest
+0.46,41664,2009,Oklahoma,South
+0.443,48457,2009,Oregon,West
+0.46,49520,2009,Pennsylvania,Northeast
+0.457,54119,2009,Rhode Island,Northeast
+0.462,42442,2009,South Carolina,South
+0.452,45043,2009,South Dakota,Midwest
+0.467,41725,2009,Tennessee,South
+0.474,48259,2009,Texas,South
+0.414,55117,2009,Utah,West
+0.428,51618,2009,Vermont,Northeast
+0.456,59330,2009,Virginia,South
+0.439,56548,2009,Washington,West
+0.463,37435,2009,West Virginia,South
+0.432,49993,2009,Wisconsin,Midwest
+0.415,52664,2009,Wyoming,West
 0.472,40474,2010,Alabama,South
 0.422,64576,2010,Alaska,West
 0.455,46789,2010,Arizona,West
@@ -152,6 +305,414 @@ Gini_Index,Median_Household_Income,Year,State,Region
 0.4721,38482,2011,West Virginia,South
 0.437,50395,2011,Wisconsin,Midwest
 0.4081,56322,2011,Wyoming,West
+0.4726,41574,2012,Alabama,South
+0.4232,67712,2012,Alaska,West
+0.4608,47826,2012,Arizona,West
+0.4632,40112,2012,Arkansas,South
+0.4822,58328,2012,California,West
+0.4579,56765,2012,Colorado,West
+0.4356,58415,2012,Delaware,South
+0.5343,66583,2012,District of Columbia,South
+0.4915,67276,2012,Connecticut,Northeast
+0.4828,45040,2012,Florida,South
+0.4809,47209,2012,Georgia,South
+0.4302,45489,2012,Idaho,West
+0.4257,66259,2012,Hawaii,West
+0.4716,55137,2012,Illinois,Midwest
+0.4417,46974,2012,Indiana,Midwest
+0.4328,50957,2012,Iowa,Midwest
+0.4496,50241,2012,Kansas,Midwest
+0.4667,41724,2012,Kentucky,South
+0.4859,42944,2012,Louisiana,South
+0.445,46709,2012,Maine,Northeast
+0.4473,71122,2012,Maryland,South
+0.4813,65339,2012,Massachusetts,Northeast
+0.4624,46859,2012,Michigan,Midwest
+0.4441,58906,2012,Minnesota,Midwest
+0.487,37095,2012,Mississippi,South
+0.4608,45321,2012,Missouri,Midwest
+0.4502,45076,2012,Montana,West
+0.4339,50723,2012,Nebraska,Midwest
+0.4516,49760,2012,Nevada,West
+0.4298,63280,2012,New Hampshire,Northeast
+0.4718,69667,2012,New Jersey,Northeast
+0.4713,42558,2012,New Mexico,West
+0.5009,56448,2012,New York,Northeast
+0.4691,45150,2012,North Carolina,South
+0.4597,53585,2012,North Dakota,Midwest
+0.4615,46829,2012,Ohio,Midwest
+0.4643,44312,2012,Oklahoma,South
+0.4565,49161,2012,Oregon,West
+0.4642,51230,2012,Pennsylvania,Northeast
+0.4647,54554,2012,Rhode Island,Northeast
+0.4684,43107,2012,South Carolina,South
+0.4335,48362,2012,South Dakota,Midwest
+0.4732,42764,2012,Tennessee,South
+0.4767,50740,2012,Texas,South
+0.4392,52977,2012,Vermont,Northeast
+0.4244,57049,2012,Utah,West
+0.4661,61741,2012,Virginia,South
+0.4498,57573,2012,Washington,West
+0.4638,40196,2012,West Virginia,South
+0.4401,51059,2012,Wisconsin,Midwest
+0.4166,54901,2012,Wyoming,West
+0.4791,37963,2013,Mississippi,South
+0.4605,46931,2013,Missouri,Midwest
+0.462,46972,2013,Montana,West
+0.4445,51440,2013,Nebraska,Midwest
+0.4543,51230,2013,Nevada,West
+0.4387,64230,2013,New Hampshire,Northeast
+0.48,70165,2013,New Jersey,Northeast
+0.4759,43872,2013,New Mexico,West
+0.5098,57369,2013,New York,Northeast
+0.4765,45906,2013,North Carolina,South
+0.455,55759,2013,North Dakota,Midwest
+0.4652,48081,2013,Ohio,Midwest
+0.4619,45690,2013,Oklahoma,South
+0.46,50251,2013,Oregon,West
+0.4696,52007,2013,Pennsylvania,Northeast
+0.4769,55902,2013,Rhode Island,Northeast
+0.4665,44163,2013,South Carolina,South
+0.4427,48947,2013,South Dakota,Midwest
+0.4783,44297,2013,Tennessee,South
+0.4807,51704,2013,Texas,South
+0.4537,52578,2013,Vermont,Northeast
+0.4259,59770,2013,Utah,West
+0.4672,62666,2013,Virginia,South
+0.4572,58405,2013,Washington,West
+0.4647,41253,2013,West Virginia,South
+0.4446,51467,2013,Wisconsin,Midwest
+0.4183,58752,2013,Wyoming,West
+0.4752,42849,2013,Alabama,South
+0.4083,72237,2013,Alaska,West
+0.4681,48510,2013,Arizona,West
+0.4685,40511,2013,Arkansas,South
+0.4903,60190,2013,California,West
+0.4614,58823,2013,Colorado,West
+0.4513,57846,2013,Delaware,South
+0.532,67572,2013,District of Columbia,South
+0.4994,67098,2013,Connecticut,Northeast
+0.4843,46036,2013,Florida,South
+0.4837,47829,2013,Georgia,South
+0.4376,46783,2013,Idaho,West
+0.44,68020,2013,Hawaii,West
+0.4824,56210,2013,Illinois,Midwest
+0.4554,47529,2013,Indiana,Midwest
+0.4429,52229,2013,Iowa,Midwest
+0.4589,50972,2013,Kansas,Midwest
+0.4721,43399,2013,Kentucky,South
+0.4914,44164,2013,Louisiana,South
+0.4532,46974,2013,Maine,Northeast
+0.4555,72483,2013,Maryland,South
+0.4837,66768,2013,Massachusetts,Northeast
+0.4641,48273,2013,Michigan,Midwest
+0.4462,60702,2013,Minnesota,Midwest
+0.4758,42830,2014,Alabama,South
+0.4175,71583,2014,Alaska,West
+0.4676,50068,2014,Arizona,West
+0.4714,41262,2014,Arkansas,South
+0.489,61933,2014,California,West
+0.4584,61303,2014,Colorado,West
+0.4494,59716,2014,Delaware,South
+0.5224,71648,2014,District of Columbia,South
+0.5005,70048,2014,Connecticut,Northeast
+0.4834,47463,2014,Florida,South
+0.4801,49321,2014,Georgia,South
+0.4541,47861,2014,Idaho,West
+0.4325,69592,2014,Hawaii,West
+0.4765,57444,2014,Illinois,Midwest
+0.4455,49446,2014,Indiana,Midwest
+0.4433,53712,2014,Iowa,Midwest
+0.4597,52504,2014,Kansas,Midwest
+0.4704,42958,2014,Kentucky,South
+0.4902,44555,2014,Louisiana,South
+0.4593,49462,2014,Maine,Northeast
+0.4491,73971,2014,Maryland,South
+0.4863,69160,2014,Massachusetts,Northeast
+0.4598,49847,2014,Michigan,Midwest
+0.4539,61481,2014,Minnesota,Midwest
+0.476,39680,2014,Mississippi,South
+0.4628,48363,2014,Missouri,Midwest
+0.4544,46328,2014,Montana,West
+0.4352,52686,2014,Nebraska,Midwest
+0.4427,51450,2014,Nevada,West
+0.441,66532,2014,New Hampshire,Northeast
+0.4757,71919,2014,New Jersey,Northeast
+0.477,44803,2014,New Mexico,West
+0.5111,58878,2014,New York,Northeast
+0.4748,46556,2014,North Carolina,South
+0.4664,59029,2014,North Dakota,Midwest
+0.4637,49308,2014,Ohio,Midwest
+0.466,47529,2014,Oklahoma,South
+0.4624,51075,2014,Oregon,West
+0.4686,53234,2014,Pennsylvania,Northeast
+0.4827,54891,2014,Rhode Island,Northeast
+0.4687,45238,2014,South Carolina,South
+0.4468,50979,2014,South Dakota,Midwest
+0.4811,44361,2014,Tennessee,South
+0.4827,53035,2014,Texas,South
+0.4406,54166,2014,Vermont,Northeast
+0.4283,60922,2014,Utah,West
+0.4658,64902,2014,Virginia,South
+0.4542,61366,2014,Washington,West
+0.4546,41059,2014,West Virginia,South
+0.4397,52622,2014,Wisconsin,Midwest
+0.427,57055,2014,Wyoming,West
+0.4759,40593,2015,Mississippi,South
+0.4634,50238,2015,Missouri,Midwest
+0.4623,49509,2015,Montana,West
+0.4473,54996,2015,Nebraska,Midwest
+0.4548,52431,2015,Nevada,West
+0.4347,70303,2015,New Hampshire,Northeast
+0.4832,72222,2015,New Jersey,Northeast
+0.4795,45382,2015,New Mexico,West
+0.5138,60850,2015,New York,Northeast
+0.4776,47830,2015,North Carolina,South
+0.4664,60557,2015,North Dakota,Midwest
+0.4637,51075,2015,Ohio,Midwest
+0.4702,48568,2015,Oklahoma,South
+0.4622,54148,2015,Oregon,West
+0.4685,55702,2015,Pennsylvania,Northeast
+0.4732,58073,2015,Rhode Island,Northeast
+0.4698,47238,2015,South Carolina,South
+0.4436,53017,2015,South Dakota,Midwest
+0.4789,47275,2015,Tennessee,South
+0.4823,55653,2015,Texas,South
+0.4452,56990,2015,Vermont,Northeast
+0.4252,62912,2015,Utah,West
+0.4681,66262,2015,Virginia,South
+0.4561,64129,2015,Washington,West
+0.4581,42019,2015,West Virginia,South
+0.441,55638,2015,Wisconsin,Midwest
+0.4374,60214,2015,Wyoming,West
+0.4811,44765,2015,Alabama,South
+0.4322,73355,2015,Alaska,West
+0.4702,51492,2015,Arizona,West
+0.4773,41995,2015,Arkansas,South
+0.4876,64500,2015,California,West
+0.458,63909,2015,Colorado,West
+0.4523,61255,2015,Delaware,South
+0.5354,75628,2015,District of Columbia,South
+0.4916,71346,2015,Connecticut,Northeast
+0.4872,49426,2015,Florida,South
+0.4801,51244,2015,Georgia,South
+0.4525,48275,2015,Idaho,West
+0.4346,73486,2015,Hawaii,West
+0.4817,59588,2015,Illinois,Midwest
+0.4519,50532,2015,Indiana,Midwest
+0.4393,54736,2015,Iowa,Midwest
+0.4596,53906,2015,Kansas,Midwest
+0.4781,45215,2015,Kentucky,South
+0.4909,45727,2015,Louisiana,South
+0.4523,51494,2015,Maine,Northeast
+0.4524,75847,2015,Maryland,South
+0.4848,70628,2015,Massachusetts,Northeast
+0.4667,51084,2015,Michigan,Midwest
+0.4492,63488,2015,Minnesota,Midwest
+0.4828,41754,2016,Mississippi,South
+0.4646,51746,2016,Missouri,Midwest
+0.4667,50027,2016,Montana,West
+0.4477,56927,2016,Nebraska,Midwest
+0.4577,55180,2016,Nevada,West
+0.4304,70936,2016,New Hampshire,Northeast
+0.4813,76126,2016,New Jersey,Northeast
+0.4769,46748,2016,New Mexico,West
+0.5129,62909,2016,New York,Northeast
+0.478,50584,2016,North Carolina,South
+0.4533,60656,2016,North Dakota,Midwest
+0.468,52334,2016,Ohio,Midwest
+0.4645,49176,2016,Oklahoma,South
+0.4583,57532,2016,Oregon,West
+0.4689,56907,2016,Pennsylvania,Northeast
+0.4781,60596,2016,Rhode Island,Northeast
+0.4735,49501,2016,South Carolina,South
+0.4495,54467,2016,South Dakota,Midwest
+0.479,48547,2016,Tennessee,South
+0.48,56565,2016,Texas,South
+0.4539,57677,2016,Vermont,Northeast
+0.4263,65977,2016,Utah,West
+0.4705,68114,2016,Virginia,South
+0.4591,67106,2016,Washington,West
+0.4711,43385,2016,West Virginia,South
+0.4498,56811,2016,Wisconsin,Midwest
+0.436,59882,2016,Wyoming,West
+0.4847,46257,2016,Alabama,South
+0.4081,76440,2016,Alaska,West
+0.4713,53558,2016,Arizona,West
+0.4719,44334,2016,Arkansas,South
+0.4899,67739,2016,California,West
+0.4586,65685,2016,Colorado,West
+0.4522,61757,2016,Delaware,South
+0.542,75506,2016,District of Columbia,South
+0.4945,73433,2016,Connecticut,Northeast
+0.4852,50860,2016,Florida,South
+0.4813,53559,2016,Georgia,South
+0.4503,51807,2016,Idaho,West
+0.442,74511,2016,Hawaii,West
+0.481,60960,2016,Illinois,Midwest
+0.4527,52314,2016,Indiana,Midwest
+0.4451,56247,2016,Iowa,Midwest
+0.455,54935,2016,Kansas,Midwest
+0.4813,46659,2016,Kentucky,South
+0.499,45146,2016,Louisiana,South
+0.4519,53079,2016,Maine,Northeast
+0.4499,78945,2016,Maryland,South
+0.4786,75297,2016,Massachusetts,Northeast
+0.4695,52492,2016,Michigan,Midwest
+0.4496,65599,2016,Minnesota,Midwest
+0.479,43529,2017,Mississippi,South
+0.4618,53578,2017,Missouri,Midwest
+0.4539,53386,2017,Montana,West
+0.4391,59970,2017,Nebraska,Midwest
+0.4606,58003,2017,Nevada,West
+0.4386,73381,2017,New Hampshire,Northeast
+0.4794,80088,2017,New Jersey,Northeast
+0.4776,46744,2017,New Mexico,West
+0.5157,64894,2017,New York,Northeast
+0.4763,52752,2017,North Carolina,South
+0.4546,61843,2017,North Dakota,Midwest
+0.4642,54021,2017,Ohio,Midwest
+0.4658,50051,2017,Oklahoma,South
+0.4593,60212,2017,Oregon,West
+0.4777,59195,2017,Pennsylvania,Northeast
+0.4722,63870,2017,Rhode Island,Northeast
+0.4795,50570,2017,South Carolina,South
+0.4488,56521,2017,South Dakota,Midwest
+0.4822,51340,2017,Tennessee,South
+0.4781,59206,2017,Texas,South
+0.4525,57513,2017,Vermont,Northeast
+0.4225,68358,2017,Utah,West
+0.4674,71535,2017,Virginia,South
+0.4561,70979,2017,Washington,West
+0.4686,43469,2017,West Virginia,South
+0.4467,59305,2017,Wisconsin,Midwest
+0.4326,60434,2017,Wyoming,West
+0.4768,48123,2017,Alabama,South
+0.4241,73181,2017,Alaska,West
+0.4668,56581,2017,Arizona,West
+0.4725,45869,2017,Arkansas,South
+0.4866,71805,2017,California,West
+0.4553,69117,2017,Colorado,West
+0.4811,62852,2017,Delaware,South
+0.5281,82372,2017,District of Columbia,South
+0.4943,74168,2017,Connecticut,Northeast
+0.4859,52594,2017,Florida,South
+0.483,56183,2017,Georgia,South
+0.4478,52225,2017,Idaho,West
+0.4455,77765,2017,Hawaii,West
+0.4818,62992,2017,Illinois,Midwest
+0.4497,54181,2017,Indiana,Midwest
+0.4381,58570,2017,Iowa,Midwest
+0.4539,56422,2017,Kansas,Midwest
+0.4784,48375,2017,Kentucky,South
+0.4935,46145,2017,Louisiana,South
+0.4526,56277,2017,Maine,Northeast
+0.453,80776,2017,Maryland,South
+0.4851,77385,2017,Massachusetts,Northeast
+0.4671,54909,2017,Michigan,Midwest
+0.4516,68388,2017,Minnesota,Midwest
+0.4483,60773,2018,Wisconsin,Midwest
+0.4555,61584,2018,Wyoming,West
+0.4828,44717,2018,Mississippi,South
+0.4657,54478,2018,Missouri,Midwest
+0.4535,55328,2018,Montana,West
+0.4488,59566,2018,Nebraska,Midwest
+0.469,58646,2018,Nevada,West
+0.453,74991,2018,New Hampshire,Northeast
+0.4836,81740,2018,New Jersey,Northeast
+0.4891,47169,2018,New Mexico,West
+0.513,67844,2018,New York,Northeast
+0.4782,53855,2018,North Carolina,South
+0.4427,63837,2018,North Dakota,Midwest
+0.4667,56111,2018,Ohio,Midwest
+0.4687,51924,2018,Oklahoma,South
+0.4582,63426,2018,Oregon,West
+0.4747,60905,2018,Pennsylvania,Northeast
+0.47,64340,2018,Rhode Island,Northeast
+0.4762,52306,2018,South Carolina,South
+0.4445,56274,2018,South Dakota,Midwest
+0.4778,52375,2018,Tennessee,South
+0.4822,60629,2018,Texas,South
+0.4473,60782,2018,Vermont,Northeast
+0.4269,71414,2018,Utah,West
+0.4754,72577,2018,Virginia,South
+0.4574,74073,2018,Washington,West
+0.4742,44097,2018,West Virginia,South
+0.4859,49861,2018,Alabama,South
+0.4322,74346,2018,Alaska,West
+0.4613,59246,2018,Arizona,West
+0.4845,47062,2018,Arkansas,South
+0.4912,75277,2018,California,West
+0.4561,71953,2018,Colorado,West
+0.4587,64805,2018,Delaware,South
+0.5243,85203,2018,District of Columbia,South
+0.5014,76348,2018,Connecticut,Northeast
+0.4887,55462,2018,Florida,South
+0.4822,58756,2018,Georgia,South
+0.4454,55583,2018,Idaho,West
+0.445,80212,2018,Hawaii,West
+0.4852,65030,2018,Illinois,Midwest
+0.4511,55746,2018,Indiana,Midwest
+0.4413,59955,2018,Iowa,Midwest
+0.4633,58218,2018,Kansas,Midwest
+0.4787,50247,2018,Kentucky,South
+0.4936,47905,2018,Louisiana,South
+0.4516,55602,2018,Maine,Northeast
+0.4543,83242,2018,Maryland,South
+0.4875,79835,2018,Massachusetts,Northeast
+0.4679,56697,2018,Michigan,Midwest
+0.4536,70315,2018,Minnesota,Midwest
+0.4896,45792,2019,Mississippi,South
+0.4633,57409,2019,Missouri,Midwest
+0.4597,57153,2019,Montana,West
+0.44,63229,2019,Nebraska,Midwest
+0.471,63276,2019,Nevada,West
+0.4406,77933,2019,New Hampshire,Northeast
+0.4782,85751,2019,New Jersey,Northeast
+0.4768,51945,2019,New Mexico,West
+0.5149,72108,2019,New York,Northeast
+0.4743,57341,2019,North Carolina,South
+0.4558,64577,2019,North Dakota,Midwest
+0.4651,58642,2019,Ohio,Midwest
+0.4739,54449,2019,Oklahoma,South
+0.45,67058,2019,Oregon,West
+0.4745,63463,2019,Pennsylvania,Northeast
+0.4628,71169,2019,Rhode Island,Northeast
+0.4747,56227,2019,South Carolina,South
+0.436,59533,2019,South Dakota,Midwest
+0.4749,56071,2019,Tennessee,South
+0.4753,64034,2019,Texas,South
+0.4471,63001,2019,Vermont,Northeast
+0.4268,75780,2019,Utah,West
+0.469,76456,2019,Virginia,South
+0.4577,78687,2019,Washington,West
+0.4644,48850,2019,West Virginia,South
+0.4391,64168,2019,Wisconsin,Midwest
+0.4345,65003,2019,Wyoming,West
+0.48,69187,2019,Illinois,Midwest
+0.4795,61980,2019,Georgia,South
+0.4337,60999,2019,Idaho,West
+0.4397,83102,2019,Hawaii,West
+0.4584,57603,2019,Indiana,Midwest
+0.4422,61691,2019,Iowa,Midwest
+0.45,62087,2019,Kansas,Midwest
+0.4764,52295,2019,Kentucky,South
+0.4978,51073,2019,Louisiana,South
+0.449,58924,2019,Maine,Northeast
+0.4558,86738,2019,Maryland,South
+0.4803,85843,2019,Massachusetts,Northeast
+0.4634,59584,2019,Michigan,Midwest
+0.4434,74593,2019,Minnesota,Midwest
+0.5024,78833,2019,Connecticut,Northeast
+0.4808,59227,2019,Florida,South
+0.4741,51734,2019,Alabama,South
+0.4376,75463,2019,Alaska,West
+0.4591,62055,2019,Arizona,West
+0.475,48952,2019,Arkansas,South
+0.4866,80440,2019,California,West
+0.4548,77127,2019,Colorado,West
+0.4509,70176,2019,Delaware,South
+0.5115,92266,2019,District of Columbia,South
 0.4823,53913,2021,Alabama,South
 0.4629,69056,2021,Arizona,West
 0.4751,52528,2021,Arkansas,South
@@ -203,3 +764,105 @@ Gini_Index,Median_Household_Income,Year,State,Region
 0.4464,67125,2021,Wisconsin,Midwest
 0.4638,65204,2021,Wyoming,West
 0.4392,77845,2021,Alaska,West
+0.4851,59674,2022,Alabama,South
+0.4278,88121,2022,Alaska,West
+0.4665,74568,2022,Arizona,West
+0.4799,55432,2022,Arkansas,South
+0.4953,91551,2022,California,West
+0.4566,89302,2022,Colorado,West
+0.5008,88429,2022,Connecticut,Northeast
+0.4407,82174,2022,Delaware,South
+0.5111,101027,2022,District of Columbia,South
+0.4902,69303,2022,Florida,South
+0.4736,72837,2022,Georgia,South
+0.4574,92458,2022,Hawaii,West
+0.4434,72785,2022,Idaho,West
+0.4837,76708,2022,Illinois,Midwest
+0.4561,66785,2022,Indiana,Midwest
+0.4514,69588,2022,Iowa,Midwest
+0.4632,68925,2022,Kansas,Midwest
+0.4845,59341,2022,Kentucky,South
+0.4915,55416,2022,Louisiana,South
+0.4601,69543,2022,Maine,Northeast
+0.4589,94991,2022,Maryland,South
+0.4976,94488,2022,Massachusetts,Northeast
+0.4685,66986,2022,Michigan,Midwest
+0.456,82338,2022,Minnesota,Midwest
+0.4806,52719,2022,Mississippi,South
+0.4687,64811,2022,Missouri,Midwest
+0.4652,67631,2022,Montana,West
+0.461,69597,2022,Nebraska,Midwest
+0.4685,72333,2022,Nevada,West
+0.4466,89992,2022,New Hampshire,Northeast
+0.4815,96346,2022,New Jersey,Northeast
+0.4796,59726,2022,New Mexico,West
+0.5208,79557,2022,New York,Northeast
+0.4768,67481,2022,North Carolina,South
+0.4678,71970,2022,North Dakota,Midwest
+0.4691,65720,2022,Ohio,Midwest
+0.4743,59673,2022,Oklahoma,South
+0.4679,75657,2022,Oregon,West
+0.4778,71798,2022,Pennsylvania,Northeast
+0.464,81854,2022,Rhode Island,Northeast
+0.4757,64115,2022,South Carolina,South
+0.4487,69728,2022,South Dakota,Midwest
+0.4694,65254,2022,Tennessee,South
+0.4796,72284,2022,Texas,South
+0.4264,89168,2022,Utah,West
+0.4452,73991,2022,Vermont,Northeast
+0.4755,85873,2022,Virginia,South
+0.4742,91306,2022,Washington,West
+0.4804,54329,2022,West Virginia,South
+0.451,70996,2022,Wisconsin,Midwest
+0.4437,70042,2022,Wyoming,West
+0.4771,62212,2023,Alabama,South
+0.4492,86631,2023,Alaska,West
+0.465,77315,2023,Arizona,West
+0.474,58700,2023,Arkansas,South
+0.487,95521,2023,California,West
+0.4575,92911,2023,Colorado,West
+0.4954,91665,2023,Connecticut,Northeast
+0.4557,81361,2023,Delaware,South
+0.5163,108210,2023,District of Columbia,South
+0.4829,73311,2023,Florida,South
+0.4787,74632,2023,Georgia,South
+0.4512,95322,2023,Hawaii,West
+0.4404,74942,2023,Idaho,West
+0.481,80306,2023,Illinois,Midwest
+0.4536,69477,2023,Indiana,Midwest
+0.4464,71433,2023,Iowa,Midwest
+0.4518,70333,2023,Kansas,Midwest
+0.4759,61118,2023,Kentucky,South
+0.4967,58229,2023,Louisiana,South
+0.4509,73733,2023,Maine,Northeast
+0.4561,98678,2023,Maryland,South
+0.4879,99858,2023,Massachusetts,Northeast
+0.4658,69183,2023,Michigan,Midwest
+0.4541,85086,2023,Minnesota,Midwest
+0.4843,54203,2023,Mississippi,South
+0.4608,68545,2023,Missouri,Midwest
+0.4601,70804,2023,Montana,West
+0.4634,74590,2023,Nebraska,Midwest
+0.4632,76364,2023,Nevada,West
+0.4446,96838,2023,New Hampshire,Northeast
+0.4794,99781,2023,New Jersey,Northeast
+0.4771,62268,2023,New Mexico,West
+0.5157,82095,2023,New York,Northeast
+0.4732,70804,2023,North Carolina,South
+0.4451,76525,2023,North Dakota,Midwest
+0.4695,67769,2023,Ohio,Midwest
+0.4737,62138,2023,Oklahoma,South
+0.4636,80160,2023,Oregon,West
+0.4774,73824,2023,Pennsylvania,Northeast
+0.4661,84972,2023,Rhode Island,Northeast
+0.4715,67804,2023,South Carolina,South
+0.462,71810,2023,South Dakota,Midwest
+0.476,67631,2023,Tennessee,South
+0.479,75780,2023,Texas,South
+0.4225,93421,2023,Utah,West
+0.4549,81211,2023,Vermont,Northeast
+0.4723,89931,2023,Virginia,South
+0.4703,94605,2023,Washington,West
+0.4679,55948,2023,West Virginia,South
+0.4479,74631,2023,Wisconsin,Midwest
+0.4455,72415,2023,Wyoming,West
