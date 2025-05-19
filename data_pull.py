@@ -3,21 +3,17 @@ import requests
 import pandas as pd
 from time import sleep
 
-# ---------------------- CONFIGURATION -----------------------
-CENSUS_API_KEY = "caa8b48ff6f8c9182650f3b765073d0facf90bbb"  
+# ---------------- CONFIG ----------------
+CENSUS_API_KEY = "caa8b48ff6f8c9182650f3b765073d0facf90bbb"
 BASE_URL = "https://api.census.gov/data/{year}/acs/acs1"
-YEARS = list(range(2005, 2024))  # 2005 through 2023
-
-# Variables to pull: Gini Index and Median Household Income
+YEARS = list(range(2006, 2024))  # Note: 2020 will be skipped explicitly due to missing data related to covid 19
 VARIABLES = {
     "Gini_Index": "B19083_001E",
     "Median_Household_Income": "B19013_001E"
 }
-
 OUTPUT_DIR = "./data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Mapping of FIPS codes to readable state names
 STATE_FIPS_TO_NAME = {
     "01": "Alabama", "02": "Alaska", "04": "Arizona", "05": "Arkansas", "06": "California",
     "08": "Colorado", "09": "Connecticut", "10": "Delaware", "11": "District of Columbia",
@@ -32,10 +28,10 @@ STATE_FIPS_TO_NAME = {
     "48": "Texas", "49": "Utah", "50": "Vermont", "51": "Virginia", "53": "Washington",
     "54": "West Virginia", "55": "Wisconsin", "56": "Wyoming"
 }
-# -------------------------------------------------------------
+
+# ---------------- FUNCTION ----------------
 
 def pull_acs_data(year):
-    """Gracefully pulls ACS data for a specific year and returns a clean DataFrame."""
     url = BASE_URL.format(year=year)
     params = {
         "get": ",".join(VARIABLES.values()),
@@ -47,37 +43,48 @@ def pull_acs_data(year):
     response = requests.get(url, params=params)
 
     if response.status_code != 200:
-        raise Exception(f"😢 Failed to fetch data for {year}: {response.text}")
+        print(f"⚠️ Failed for {year}: HTTP {response.status_code}")
+        return None
+    try:
+        data = response.json()
+    except ValueError:
+        print(f"⚠️ Invalid JSON for year {year}")
+        return None
 
-    # Parse and beautify
-    data = response.json()
+    # Build dataframe
     columns = list(VARIABLES.keys()) + ["state"]
     df = pd.DataFrame(data[1:], columns=columns)
     df["Year"] = year
     df["State"] = df["state"].map(STATE_FIPS_TO_NAME)
     df.drop(columns=["state"], inplace=True)
 
-    # Ensure numeric values are correctly typed
     for col in VARIABLES.keys():
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
     return df
 
+# ---------------- MAIN ----------------
+
 def main():
     all_years_data = []
 
     for year in YEARS:
-        try:
-            df = pull_acs_data(year)
-            all_years_data.append(df)
-            sleep(1)  
-        except Exception as e:
-            print(f"⚠️ Error encountered for year {year}: {e}")
+        if year == 2020:
+            print(f"⚠️ Skipping {year}: ACS 1-Year Estimates not released due to COVID-19.")
+            continue
 
-    full_df = pd.concat(all_years_data, ignore_index=True)
-    output_file = os.path.join(OUTPUT_DIR, "income_inequality_trends.csv")
-    full_df.to_csv(output_file, index=False)
-    print(f"\n✅ Successfully saved data to: {output_file}")
+        df = pull_acs_data(year)
+        if df is not None:
+            all_years_data.append(df)
+        sleep(1)
+
+    if all_years_data:
+        full_df = pd.concat(all_years_data, ignore_index=True)
+        output_file = os.path.join(OUTPUT_DIR, "income_inequality_trends.csv")
+        full_df.to_csv(output_file, index=False)
+        print(f"\n✅ Successfully saved data to: {output_file}")
+    else:
+        print("❌ No data was collected. Check API key or variable availability.")
 
 if __name__ == "__main__":
     main()
