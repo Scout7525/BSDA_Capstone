@@ -75,9 +75,9 @@ Project root contains the following files and directories:
 ## 📌 Key Findings
 
 - A **statistically significant** increase in the Gini Index was observed across most U.S. states (p < 0.0001).
-- **Cohen's d = 1.65**, indicating a large practical effect.
-- The **South and West** regions saw the most consistent growth in inequality.
-- **Weak correlation** (r ≈ 0.14) between Gini Index and median household income, indicating that higher income does not imply lower inequality.
+- **Cohen's d = 2.0162**, indicating a large practical effect.
+- The **South and Northeast** regions saw the most consistent growth in inequality.
+- **Weak correlation** (r ≈ 0.11) between Gini Index and median household income, indicating that higher income does not imply lower inequality.
 
 ---
 
