@@ -95,6 +95,8 @@ Project root contains the following files and directories:
 Data is sourced from the **U.S. Census Bureau's American Community Survey (ACS) 1-Year Estimates**, using public APIs:  
 🔗 https://www.census.gov/data/developers/data-sets/acs-1year.html
 
+Note: The year 2020 was intentionally excluded due to the U.S. Census Bureau not releasing ACS 1-Year Estimates that year because of COVID-19–related data disruptions. The year 2005 was also excluded because Gini Index values were not available in the 1-Year release for that period. These adjustments were handled by year-specific exception handling in `data_pull.py`.
+
 ---
 
 ## 📚 References
@@ -125,20 +127,19 @@ Stotesbury, N., & Dorling, D. (2015). Understanding income inequality and its im
 
 Tcherneva, P. (2015). Trends in US income inequality. *Real-World Economics Review*, 71, 64–74.
 
-
 ---
 
 ## ✅ Status
 
 ✔️ Completed  
-📅 Timeline: May 10–May 18, 2025  
+📅 Timeline: May 10–May 19, 2025  
 📂 Capstone Project Submission: BSDA Program
 
 ---
 
 ## 📬 Contact
 
-**Author**: Mark MacPherson]  
-**Email**: mmacph6@wgo.edu]  
+**Author**: Mark MacPherson  
+**Email**: mmacph6@wgo.edu  
 **GitHub**: github.com/Scout7525
-
+"""
