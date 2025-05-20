@@ -142,4 +142,3 @@ Tcherneva, P. (2015). Trends in US income inequality. *Real-World Economics Revi
 **Author**: Mark MacPherson  
 **Email**: mmacph6@wgo.edu  
 **GitHub**: github.com/Scout7525
-"""
