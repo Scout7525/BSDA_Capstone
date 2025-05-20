@@ -14,38 +14,6 @@ df = pd.read_csv(input_file)
 
 # --------- BASIC EDA ---------
 
-# Overview
-print("\n🔍 Dataset Overview:")
-print(df.info())
-print(df.describe())
-
-# Check for missing
-print("\n🧼 Missing Values:\n", df.isnull().sum())
-
-# --------- NATIONAL GINI TREND ---------
-
-national_trend = df.groupby("Year")["Gini_Index"].mean().reset_index()
-
-plt.figure(figsize=(10, 5))
-sns.lineplot(data=national_trend, x="Year", y="Gini_Index", marker="o")
-plt.title("National Average Gini Index Over Time")
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
-from matplotlib.ticker import MaxNLocator
-
-# Setup
-sns.set(style="whitegrid")
-input_file = "./data/income_inequality_cleaned.csv"
-output_dir = "./figures"
-os.makedirs(output_dir, exist_ok=True)
-
-# Load data
-df = pd.read_csv(input_file)
-
-# --------- BASIC EDA ---------
-
 print("\n🔍 Dataset Overview:")
 print(df.info())
 print(df.describe())
